@@ -20,6 +20,10 @@ Copy the example env file and make the required configuration changes in the .en
 
     cp .env.example .env
 
+Filament User Create
+
+    php artisan make:filament-user
+
 Generate a new application key
 
     php artisan key:generate
@@ -32,4 +36,4 @@ Start the local development server
 
     php artisan serve
 
-You can now access the server at http://localhost:8000
+You can now access the server at http://localhost:8000/admin/login
